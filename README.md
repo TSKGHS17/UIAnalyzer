@@ -3,12 +3,12 @@
 ## Install
 
 ```sh
-    git clone git@github.com:TSKGHS17/UIAnalyzer.git
-    cd UIAnalyzer
+git clone git@github.com:TSKGHS17/UIAnalyzer.git
+cd UIAnalyzer
 ```
 
 ```sh
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Run
