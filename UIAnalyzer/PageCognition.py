@@ -4,10 +4,10 @@ from datetime import datetime
 from typing import List, Dict, Tuple
 from PIL import Image, ImageDraw, ImageFont
 
-from Rect import Rect
-from XML import XML
-from Utils import get_bounds_average_color, get_inverse_color
-from Driver import Driver
+from .Rect import Rect
+from .XML import XML
+from .Utils import get_bounds_average_color, get_inverse_color
+from .Driver import Driver
 
 
 # 获取当前脚本文件目录
@@ -25,7 +25,7 @@ class PageCognition:
         if img_path is None and xml_path is None:
             current_script_path = os.path.abspath(__file__)
             project_root = os.path.dirname(current_script_path)
-            log_path = os.path.join(project_root, "UIAnalyzer_logs")
+            log_path = os.path.join(project_root, "../UIAnalyzer_logs")
             os.makedirs(log_path, exist_ok=True)
             current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
             img_path = os.path.join(log_path, f"{current_time}.png")

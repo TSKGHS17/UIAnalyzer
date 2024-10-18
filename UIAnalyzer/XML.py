@@ -4,8 +4,8 @@ from lxml import etree
 from typing import List, Union, Dict
 from anytree import Node, RenderTree
 
-from Driver import Driver
-from Utils import RED, END
+from .Driver import Driver
+from .Utils import RED, END
 
 
 class XML:
@@ -160,7 +160,7 @@ class XML:
 
 
 if __name__ == "__main__":
-    xml = XML("./Example/dom_tree.xml", driver=Driver())
+    xml = XML("Example/dom_tree.xml", driver=Driver())
     nodes = xml.group_interactive_nodes()
     for n in nodes:
         print(n)

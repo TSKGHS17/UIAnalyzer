@@ -1,8 +1,13 @@
 **/__pycache__
 .idea/
 venv
+setup.py
+UIAnalyzer.egg-info
+build
+dist
 
-Example/*.png
-Example/*.xml
+UIAnalyzer/Example/*.png
+UIAnalyzer/Example/*.xml
 
 UIAnalyzer_logs
+test_package.py

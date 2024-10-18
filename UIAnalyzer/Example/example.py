@@ -1,10 +1,10 @@
-from PageCognition import PageCognition
-from Driver import Driver
+from UIAnalyzer.PageCognition import PageCognition
+from UIAnalyzer.Driver import Driver
 
 # 1. 获取截图和XML
 driver = Driver()
-img_path = "./screenshot.png"
-xml_path = "./dom_tree.xml"
+img_path = "screenshot.png"
+xml_path = "dom_tree.xml"
 
 driver.screenshot(img_path)
 driver.get_xml(xml_path)

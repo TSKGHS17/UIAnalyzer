@@ -20,3 +20,7 @@ Refer to `Example/example.py`
 - `Rect.py`: The rectangle(bounding box of UI element) processing module.
 - `XML.py`: The XML processing module, used for parsing and handling XML files.
 - `Utils.py`: The utility functions module
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

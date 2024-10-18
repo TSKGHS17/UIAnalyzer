@@ -3,7 +3,7 @@ import platform
 from typing import Dict, Tuple
 import re
 
-from Utils import exec_command, RED, END
+from .Utils import exec_command, RED, END
 
 
 class Driver:
