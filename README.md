@@ -11,6 +11,11 @@ cd UIAnalyzer
 pip install -r requirements.txt
 ```
 
+Or directly install with pip
+```sh
+pip install UIAnalyzer==0.1.0
+```
+
 ## Run
 
 Refer to `Example/example.py`
