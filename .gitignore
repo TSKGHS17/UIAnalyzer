@@ -1,2 +1,8 @@
 **/__pycache__
 .idea/
+venv
+
+Example/*.png
+Example/*.xml
+
+UIAnalyzer_logs

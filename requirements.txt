@@ -1,3 +1,4 @@
 lxml==5.3.0
 Pillow==10.4.0
-opencv-python
+opencv-python~=4.10.0.84
+anytree~=2.12.1
