@@ -8,7 +8,7 @@ def parse_requirements(filename):
 
 setup(
     name="UIAnalyzer",
-    version="0.1.0",
+    version="0.1.1",
     author="TSKGHS17",
     author_email="23210240317@m.fudan.edu.cn",
     long_description=open("README.md").read(),
@@ -16,6 +16,9 @@ setup(
     url="https://github.com/TSKGHS17/UIAnalyzer",
     packages=find_packages(),
     include_package_data=True,
+    package_data={
+        '': ['Assets/*.ttf'],
+    },
     license="MIT",
     license_files=('LICENSE',),
     classifiers=[
